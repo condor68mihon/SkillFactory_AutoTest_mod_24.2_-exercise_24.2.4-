@@ -23,7 +23,7 @@ Positive tests for each calculator method (exercise_24.2.4)
     def setup(self):
         self.calc = Calculator
 
-  функции тестов:
+функции тестов:
   
     def test_adding_success(self):
         assert self.calc.adding(self, 1, 1) == 2  # проверка сложения
