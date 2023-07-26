@@ -37,7 +37,8 @@ Positive tests for each calculator method (exercise_24.2.4)
     def test_subtraction_success(self):
         assert self.calc.subtraction(self, 7, 3) == 4  # проверка вычитания
 
-  окончательный шаг teardown: Выполняется даже в случае неудачи и используется, например, для освобождения внешних ресурсов
+  Окончательный шаг teardown: выполняется даже в случае неудачи и используется, например, для освобождения внешних ресурсов
+    
     def teardown(self):
         print('Выполнение метода Teardown')
 
